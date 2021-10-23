@@ -1,18 +1,31 @@
 .Joke {
-  margin-bottom: 0.75em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10%;
 }
 
-.Joke-votearea {
-  display: inline-block;
-  vertical-align: top;
+.Joke-vote {
+  display: flex;
 }
 
-.Joke-votearea > * {
-  margin-right: 1em;
-
+.Joke-circle {
+  border-radius: 50%;
+  border: 2px solid darkblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
 }
-.Joke-text {
-  margin-left: 1em;
-  display: inline-block;
-  width: 500px;
+
+i {
+  font-size: 1.3rem;
+  padding: 10px;
+  color: gray;
+}
+
+.emoji {
+  border-radius: 50%;
+  font-size: 3rem;
+  padding-right: 5px;
 }
